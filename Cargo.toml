@@ -1,0 +1,12 @@
+[package]
+name = "btc2eth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitcoin = "0.26"
+ethers = "1.0"
+k256 = "0.11" # For elliptic curve operations
+hex = "0.4"   # For hex encoding/decoding
+sha3 = "0.10" # For Keccak-256 hashing
+
